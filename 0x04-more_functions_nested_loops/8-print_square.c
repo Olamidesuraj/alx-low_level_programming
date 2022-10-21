@@ -5,7 +5,7 @@
  *  print_square - prints a square
  *  @size: size of the square
  */
-void print_sqaure(int size)
+void print_square(int size)
 {
 	if (size <= 0)
 	{
@@ -19,7 +19,7 @@ void print_sqaure(int size)
 		{
 			for (j = 0; j < size; j++)
 			{
-				_putchar('0');
+				_putchar('#');
 			}
 			_putchar('\n');
 		}
