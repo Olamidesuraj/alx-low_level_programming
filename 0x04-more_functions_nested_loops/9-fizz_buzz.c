@@ -2,24 +2,24 @@
 
 
 /**
- * main - print fizzbuzz
+ * main - print fizz_buzz
  * Return: Always 0
  */
 int main(void)
 {
 	int n;
 
-	printf("1");
+	printf('1');
 	for (n = 2; n <= 100; n++)
 	{
-		printf(" ");
+		printf(' ');
 		if (n % 3 == 0)
-			printf("Fizz");
+			printf('Fizz');
 		if (n % 5 == 0)
-			printf("Buzz");
+			printf('Buzz');
 		if (n % 3 != 0 && n % 5 != 0)
-			printf("%d", n);
+			printf('%d', n);
 	}
-	printf("\n");
+	printf('\n');
 	return (0);
 }
