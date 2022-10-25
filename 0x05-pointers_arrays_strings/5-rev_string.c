@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  *  rev_string - reverses a string
  *  @s: input
@@ -12,12 +13,12 @@ void rev_string(char *s)
 	int i;
 
 	while (s[c] != '\0')
-		C++;
+		c++;
 	for (i = 0; i < c; i++)
 	{
 		c--;
 		rv = s[i];
-		s[i] = s[c]
+		s[i] = s[c];
 		s[c] = rv;
 	}
 }
